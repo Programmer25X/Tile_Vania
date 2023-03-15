@@ -17,11 +17,11 @@ TagManager:
   - Player
   - Background
   - Bouncing
-  - Bullets
+  - 
   - Hazards
   - Enemies
   - Interactables
-  - 
+  - Bullets
   - 
   - 
   - 

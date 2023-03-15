@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         {
             myAnimator.SetTrigger("isShooting");
             Instantiate(Bullet, gun.position, transform.rotation);
+            Debug.Log(Bullet);
         }
     }
 
