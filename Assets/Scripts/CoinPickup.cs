@@ -12,7 +12,7 @@ public class CoinPickup : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" && !wasCollected)
+        if (other.CompareTag("Player") && !wasCollected)
         {
             wasCollected = true;
             FindObjectOfType<GameSession>().AddToScore(pointsForCoinPickup); 
